@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div.mainBody{
+  height: 100vh;
+  width: 100%;
+  background: chocolate;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+}
+button.btn{
+  height: 4em;
+  width: 20%;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: #000;
+  color: #fff;
+  border-radius: 3em;
+  outline: #000;
+}
+div.colorName{
+  height: 2em;
+  background: #000;
+  color: brown;
+  text-shadow: 2px 2px 1px #fff;
+  font-size: 3em;
+}
+@media screen and (min-width: 200px) and (max-width: 400px){
+  button.btn{
+    height: 3em;
+    width: 60%;
+    cursor: pointer;
+    font-size: 1.2em;
+    background: #000;
+    color: #fff;
+    border-radius: 3em;
+    outline: #000;
+  }
+}
+@media screen and (min-width:401px) and (max-width: 1024px) {
+  button.btn{
+    height: 4em;
+    width: 80%;
+    cursor: pointer;
+    font-size: 1.2em;
+    background: #000;
+    color: #fff;
+    border-radius: 3em;
+    outline: #000;
+  }
+}
