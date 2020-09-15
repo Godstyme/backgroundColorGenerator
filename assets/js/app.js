@@ -5,7 +5,6 @@ const generateBtn = document.querySelector('.btn').addEventListener('click', () 
   //  const randomColor = arrayOfColor[Math.floor(Math.random() * arrayOfColor.length)]
   const randomColor = arrayOfColor[Math.floor(Math.random() * arrayOfColor.length)]
    bodyBgd.style.background = randomColor
-   colorName.style.color = 'pink'
    colorName.textContent = randomColor
   //  console.log(randomColor)
 })

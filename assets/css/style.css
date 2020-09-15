@@ -28,12 +28,14 @@ div.colorName{
   height: 1.5em;
   width: 40%;
   background: #fff;
-  color: brown;
-  text-shadow: 2px 2px 1px #fff;
+  font-family: monospace;
   font-size: 3em;
   box-shadow: 3px 3px 2px #fff;
+  font-size: 3em;
   margin: 10px auto;
+  font-weight: bolder;
   text-align: center;
+  line-height: 1.5em;
 }
 @media screen and (min-width: 200px) and (max-width: 400px){
   button.btn{
@@ -48,14 +50,15 @@ div.colorName{
   }
   div.colorName{
     height: 1.5em;
-    width: 40%;
-    background: #fff;
-    color: brown;
-    text-shadow: 2px 2px 1px #fff;
+    width: 90%;
+    color: #000;
+    font-weight: bolder;
+    font-family: monospace;
     font-size: 3em;
     box-shadow: 3px 3px 2px #fff;
     margin: 10px auto;
     text-align: center;
+    line-height: 1.5em;
   }
 }
 @media screen and (min-width:401px) and (max-width: 1024px) {
@@ -74,7 +77,8 @@ div.colorName{
     width: 80%;
     background: #fff;
     color: #000;
-    text-shadow: 2px 2px 1px orange;
+    font-weight: bolder;
+    font-family: monospace;
     font-size: 3em;
     box-shadow: 3px 3px 2px #fff;
     margin: 10px auto;
