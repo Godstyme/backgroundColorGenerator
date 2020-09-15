@@ -7,9 +7,12 @@ div.mainBody{
   height: 100vh;
   width: 100%;
   background: chocolate;
+  padding: 80px 0px;
+}
+div.btnHolder{
   display: flex;
   justify-content: center;
-  padding: 100px 0px;
+  margin: 20px 0px;
 }
 button.btn{
   height: 4em;
@@ -22,11 +25,15 @@ button.btn{
   outline: #000;
 }
 div.colorName{
-  height: 2em;
-  background: #000;
+  height: 1.5em;
+  width: 40%;
+  background: #fff;
   color: brown;
   text-shadow: 2px 2px 1px #fff;
   font-size: 3em;
+  box-shadow: 3px 3px 2px #fff;
+  margin: 10px auto;
+  text-align: center;
 }
 @media screen and (min-width: 200px) and (max-width: 400px){
   button.btn{
@@ -39,6 +46,17 @@ div.colorName{
     border-radius: 3em;
     outline: #000;
   }
+  div.colorName{
+    height: 1.5em;
+    width: 40%;
+    background: #fff;
+    color: brown;
+    text-shadow: 2px 2px 1px #fff;
+    font-size: 3em;
+    box-shadow: 3px 3px 2px #fff;
+    margin: 10px auto;
+    text-align: center;
+  }
 }
 @media screen and (min-width:401px) and (max-width: 1024px) {
   button.btn{
@@ -50,5 +68,18 @@ div.colorName{
     color: #fff;
     border-radius: 3em;
     outline: #000;
+  }
+  div.colorName{
+    height: 1em;
+    width: 80%;
+    background: #fff;
+    color: brown;
+    text-shadow: 2px 2px 1px #fff;
+    font-size: 3em;
+    box-shadow: 3px 3px 2px #fff;
+    margin: 10px auto;
+    text-align: center;
+    padding: 3px 0px 30px 0px;
+    line-height: 0.8em;
   }
 }
